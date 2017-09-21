@@ -755,7 +755,8 @@ textarea {
 abbr[data-original-title], abbr[title] {
   border-bottom: 0;
   cursor: help;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 address {

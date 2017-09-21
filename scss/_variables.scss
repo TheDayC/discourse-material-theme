@@ -69,9 +69,9 @@ $white-divider:   rgba(255, 255, 255, .12) !default;
 
 // Basics - Shadows
 
-$shadow-color-1: rgba(0, 0, 0, .14) !default;
-$shadow-color-2: rgba(0, 0, 0, .12) !default;
-$shadow-color-3: rgba(0, 0, 0, .4) !default;
+$shadow-color-1: rgba(0, 0, 0, .12) !default;
+$shadow-color-2: rgba(0, 0, 0, .10) !default;
+$shadow-color-3: rgba(0, 0, 0, .2) !default;
 
 $shadow-24dp:    0 24px 38px 3px $shadow-color-1, 0 9px 46px 8px $shadow-color-2, 0 11px 15px -7px $shadow-color-3 !default;
 $shadow-16dp:    0 16px 24px 2px $shadow-color-1, 0 6px 30px 5px $shadow-color-2, 0 8px 10px -5px $shadow-color-3 !default;
