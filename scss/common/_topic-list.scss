@@ -257,13 +257,13 @@
 
     a {
       &.title {
-        font-weight: bold;
+        font-weight: $font-weight-medium;
         padding-top: $tbody-cell-padding-y;
         padding-bottom: $tbody-cell-padding-y;
 
         &.visited:not(.badge-notification) {
           color: color-chooser($tbody-color-dark, $tbody-color-light);
-          font-weight: normal;
+          font-weight:$font-weight-regular;
         }
       }
     }
