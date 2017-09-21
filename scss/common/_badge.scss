@@ -29,9 +29,9 @@
   }
 
   &[href] {
-    @include focus-hover {
+    /*@include focus-hover {
       box-shadow: $chip-box-shadow;
-    }
+    }*/
 
     &:focus {
       outline: 0;
@@ -48,6 +48,7 @@
       }
 
       &.badge-category-bg {
+        float:left;
         border-radius: 50%;
         flex-shrink: 0;
         height: $chip-height;
