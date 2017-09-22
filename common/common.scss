@@ -520,21 +520,21 @@ div.poll .results .bar-back::before {
   vertical-align: middle;
 }
 
-body input[type="color"], body
-input[type="date"], body
-input[type="datetime"], body
-input[type="datetime-local"], body
-input[type="email"], body
-input[type="month"], body
-input[type="number"], body
-input[type="password"], body
-input[type="search"], body
-input[type="tel"], body
-input[type="text"], body
-input[type="time"], body
-input[type="url"], body
-input[type="week"], body
-textarea, .controls .static, div.ac-wrap input[type='text'], .value-list .value {
+body input[type="color"],
+body input[type="date"],
+body input[type="datetime"],
+body input[type="datetime-local"],
+body input[type="email"],
+body input[type="month"],
+body input[type="number"],
+body input[type="password"],
+body input[type="search"],
+body input[type="tel"],
+body input[type="text"],
+body input[type="time"],
+body input[type="url"],
+body input[type="week"],
+body textarea, .controls .static, div.ac-wrap input[type='text'], .value-list .value {
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   background-color: transparent;
@@ -552,87 +552,87 @@ textarea, .controls .static, div.ac-wrap input[type='text'], .value-list .value 
   padding: 8px 0 7px;
   width: 100%;
 }
-body input[type="color"]:focus, body
-input[type="date"]:focus, body
-input[type="datetime"]:focus, body
-input[type="datetime-local"]:focus, body
-input[type="email"]:focus, body
-input[type="month"]:focus, body
-input[type="number"]:focus, body
-input[type="password"]:focus, body
-input[type="search"]:focus, body
-input[type="tel"]:focus, body
-input[type="text"]:focus, body
-input[type="time"]:focus, body
-input[type="url"]:focus, body
-input[type="week"]:focus, body
-textarea:focus, .controls .static:focus, div.ac-wrap input[type='text']:focus, .value-list .value:focus, body input[type="color"]:hover, body
-input[type="date"]:hover, body
-input[type="datetime"]:hover, body
-input[type="datetime-local"]:hover, body
-input[type="email"]:hover, body
-input[type="month"]:hover, body
-input[type="number"]:hover, body
-input[type="password"]:hover, body
-input[type="search"]:hover, body
-input[type="tel"]:hover, body
-input[type="text"]:hover, body
-input[type="time"]:hover, body
-input[type="url"]:hover, body
-input[type="week"]:hover, body
-textarea:hover, .controls .static:hover, div.ac-wrap input[type='text']:hover, .value-list .value:hover {
+body input[type="color"]:focus,
+body input[type="date"]:focus,
+body input[type="datetime"]:focus,
+body input[type="datetime-local"]:focus,
+body input[type="email"]:focus,
+body input[type="month"]:focus,
+body input[type="number"]:focus,
+body input[type="password"]:focus,
+body input[type="search"]:focus,
+body input[type="tel"]:focus,
+body input[type="text"]:focus,
+body input[type="time"]:focus,
+body input[type="url"]:focus,
+body input[type="week"]:focus,
+body textarea:focus, .controls .static:focus, div.ac-wrap input[type='text']:focus, .value-list .value:focus, body input[type="color"]:hover,
+body input[type="date"]:hover,
+body input[type="datetime"]:hover,
+body input[type="datetime-local"]:hover,
+body input[type="email"]:hover,
+body input[type="month"]:hover,
+body input[type="number"]:hover,
+body input[type="password"]:hover,
+body input[type="search"]:hover,
+body input[type="tel"]:hover,
+body input[type="text"]:hover,
+body input[type="time"]:hover,
+body input[type="url"]:hover,
+body input[type="week"]:hover,
+body textarea:hover, .controls .static:hover, div.ac-wrap input[type='text']:hover, .value-list .value:hover {
   border-width: 2px;
   padding-bottom: 6px;
 }
-body input[type="color"]:focus, body
-input[type="date"]:focus, body
-input[type="datetime"]:focus, body
-input[type="datetime-local"]:focus, body
-input[type="email"]:focus, body
-input[type="month"]:focus, body
-input[type="number"]:focus, body
-input[type="password"]:focus, body
-input[type="search"]:focus, body
-input[type="tel"]:focus, body
-input[type="text"]:focus, body
-input[type="time"]:focus, body
-input[type="url"]:focus, body
-input[type="week"]:focus, body
-textarea:focus, .controls .static:focus, div.ac-wrap input[type='text']:focus, .value-list .value:focus {
+body input[type="color"]:focus,
+body input[type="date"]:focus,
+body input[type="datetime"]:focus,
+body input[type="datetime-local"]:focus,
+body input[type="email"]:focus,
+body input[type="month"]:focus,
+body input[type="number"]:focus,
+body input[type="password"]:focus,
+body input[type="search"]:focus,
+body input[type="tel"]:focus,
+body input[type="text"]:focus,
+body input[type="time"]:focus,
+body input[type="url"]:focus,
+body input[type="week"]:focus,
+body textarea:focus, .controls .static:focus, div.ac-wrap input[type='text']:focus, .value-list .value:focus {
   border-color: $tertiary;
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: 0;
 }
-body input[disabled][type="color"], body
-input[disabled][type="date"], body
-input[disabled][type="datetime"], body
-input[disabled][type="datetime-local"], body
-input[disabled][type="email"], body
-input[disabled][type="month"], body
-input[disabled][type="number"], body
-input[disabled][type="password"], body
-input[disabled][type="search"], body
-input[disabled][type="tel"], body
-input[disabled][type="text"], body
-input[disabled][type="time"], body
-input[disabled][type="url"], body
-input[disabled][type="week"], body
-textarea[disabled], .controls [disabled].static, div.ac-wrap input[disabled][type='text'], .value-list [disabled].value, body input[readonly][type="color"], body
-input[readonly][type="date"], body
-input[readonly][type="datetime"], body
-input[readonly][type="datetime-local"], body
-input[readonly][type="email"], body
-input[readonly][type="month"], body
-input[readonly][type="number"], body
-input[readonly][type="password"], body
-input[readonly][type="search"], body
-input[readonly][type="tel"], body
-input[readonly][type="text"], body
-input[readonly][type="time"], body
-input[readonly][type="url"], body
-input[readonly][type="week"], body
-textarea[readonly], .controls [readonly].static, div.ac-wrap input[readonly][type='text'], .value-list [readonly].value {
+body input[disabled][type="color"],
+body input[disabled][type="date"],
+body input[disabled][type="datetime"],
+body input[disabled][type="datetime-local"],
+body input[disabled][type="email"],
+body input[disabled][type="month"],
+body input[disabled][type="number"],
+body input[disabled][type="password"],
+body input[disabled][type="search"],
+body input[disabled][type="tel"],
+body input[disabled][type="text"],
+body input[disabled][type="time"],
+body input[disabled][type="url"],
+body input[disabled][type="week"],
+body textarea[disabled], .controls [disabled].static, div.ac-wrap input[disabled][type='text'], .value-list [disabled].value, body input[readonly][type="color"],
+body input[readonly][type="date"],
+body input[readonly][type="datetime"],
+body input[readonly][type="datetime-local"],
+body input[readonly][type="email"],
+body input[readonly][type="month"],
+body input[readonly][type="number"],
+body input[readonly][type="password"],
+body input[readonly][type="search"],
+body input[readonly][type="tel"],
+body input[readonly][type="text"],
+body input[readonly][type="time"],
+body input[readonly][type="url"],
+body input[readonly][type="week"],
+body textarea[readonly], .controls [readonly].static, div.ac-wrap input[readonly][type='text'], .value-list [readonly].value {
   border-color: color-chooser(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.42));
   border-style: dotted;
   color: color-chooser(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.42));
@@ -745,10 +745,10 @@ html {
   padding: 0;
 }
 
-body button, body
-input, body
-select, body
-textarea {
+body button,
+body input,
+body select,
+body textarea {
   font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -813,12 +813,12 @@ dt {
   font-weight: bold;
 }
 
-body h1, body
-h2, body
-h3, body
-h4, body
-h5, body
-h6 {
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
   color: $primary;
   font-family: inherit;
   margin-top: 0;
@@ -1009,10 +1009,10 @@ sup {
   color: color-dynamic(#70ba61);
 }
 
-body code, body
-kbd, body
-pre, body
-samp {
+body code,
+body kbd,
+body pre,
+body samp {
   font-family: "Roboto Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -1393,8 +1393,8 @@ div.poll .results .option {
   color: $danger;
 }
 
-body button, body
-label {
+body button,
+body label {
   font-size: inherit;
   font-weight: bolder;
   line-height: inherit;
@@ -1408,21 +1408,21 @@ body form > .ember-view:empty {
   display: none;
 }
 
-body input[type="color"], body
-input[type="date"], body
-input[type="datetime"], body
-input[type="datetime-local"], body
-input[type="email"], body
-input[type="month"], body
-input[type="number"], body
-input[type="password"], body
-input[type="search"], body
-input[type="tel"], body
-input[type="text"], body
-input[type="time"], body
-input[type="url"], body
-input[type="week"], body
-textarea {
+body input[type="color"],
+body input[type="date"],
+body input[type="datetime"],
+body input[type="datetime-local"],
+body input[type="email"],
+body input[type="month"],
+body input[type="number"],
+body input[type="password"],
+body input[type="search"],
+body input[type="tel"],
+body input[type="text"],
+body input[type="time"],
+body input[type="url"],
+body input[type="week"],
+body textarea {
   margin-bottom: 8px;
 }
 
@@ -1554,8 +1554,8 @@ body .form-vertical .controls .d-editor:last-child {
   padding: 9.5px 16px;
 }
 
-body .input-append, body
-.input-prepend {
+body .input-append,
+body .input-prepend {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -1566,16 +1566,16 @@ body .input-append, body
   display: flex;
   margin-bottom: 8px;
 }
-body .input-append input, body
-.input-prepend input {
+body .input-append input,
+body .input-prepend input {
   margin-bottom: 0;
 }
-body .input-append input + .add-on, body
-.input-prepend input + .add-on {
+body .input-append input + .add-on,
+body .input-prepend input + .add-on {
   margin-left: 16px;
 }
-body .input-append .add-on, body
-.input-prepend .add-on {
+body .input-append .add-on,
+body .input-prepend .add-on {
   background-color: transparent;
   border: 0;
   font-size: 24px;
@@ -1589,8 +1589,8 @@ body .input-append .add-on, body
   min-width: 24px;
   padding: 0;
 }
-body .input-append .add-on + input, body
-.input-prepend .add-on + input {
+body .input-append .add-on + input,
+body .input-prepend .add-on + input {
   margin-left: 16px;
 }
 
@@ -2042,13 +2042,13 @@ div.ac-wrap input[type='text'] {
 }
 
 .d-header {
-  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.12), 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.12), 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: none;
+          box-shadow: none;
   color: $header-primary;
   height: auto;
   margin: 0;
-  min-height: 56px;
-  padding: 8px 8px;
+  min-height: 0px;
+  padding: 20px 20px;
 }
 .d-header button.login-button, .d-header button.sign-up-button {
   -webkit-box-align: center;
@@ -2064,7 +2064,7 @@ div.ac-wrap input[type='text'] {
   display: -ms-flexbox;
   display: flex;
   font-size: inherit;
-  height: 40px;
+  height: -40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -2077,7 +2077,7 @@ div.ac-wrap input[type='text'] {
   position: relative;
   text-indent: 300%;
   white-space: nowrap;
-  width: 40px;
+  width: -40px;
 }
 .d-header button.login-button:focus, .d-header button.login-button:hover, .d-header button.sign-up-button:focus, .d-header button.sign-up-button:hover {
   background-color: color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
@@ -2164,14 +2164,14 @@ div.ac-wrap input[type='text'] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 40px;
+  height: -40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 8px;
   padding: 0;
-  width: 40px;
+  width: -40px;
 }
 .d-header .icons .icon:focus, .d-header .icons .icon:hover {
   background-color: color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
@@ -2194,7 +2194,7 @@ div.ac-wrap input[type='text'] {
           order: 1;
 }
 .d-header #site-logo {
-  max-height: 32px;
+  max-height: -60px;
 }
 .d-header .title a {
   -webkit-box-align: center;
@@ -2218,7 +2218,7 @@ div.ac-wrap input[type='text'] {
 }
 
 #main-outlet {
-  padding-top: 80px;
+  padding-top: 24px;
 }
 
 ol.category-breadcrumb {
@@ -4659,7 +4659,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 #bulk-select {
   background-color: transparent;
   padding: 0;
-  top: 140px;
+  top: 84px;
   right: 16px;
 }
 
@@ -6528,7 +6528,7 @@ nav.post-controls .show-replies i {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  margin-top: 56px;
+  margin-top: 0px;
 }
 #user-card .metadata {
   display: -webkit-box;
