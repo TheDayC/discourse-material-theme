@@ -251,7 +251,7 @@ body .boxed .contents {
 
 .mobile-view .mobile-nav {
   background-color: transparent;
-  margin: 24px 0;
+  margin: 25px 0;
   width: 100%;
 }
 .mobile-view .mobile-nav.activity-nav, .mobile-view .mobile-nav.messages-nav, .mobile-view .mobile-nav.notifications-nav, .mobile-view .mobile-nav.preferences-nav {
@@ -267,7 +267,7 @@ body .boxed .contents {
 }
 
 .wrap {
-  padding: 0 8px;
+  padding: 0 7.5px;
 }
 
 .d-header button.sign-up-button::before {
@@ -323,7 +323,7 @@ body .boxed .contents {
 }
 
 .bootbox.modal {
-  margin-left: 16px;
+  margin-left: 15px;
   max-width: none;
 }
 
@@ -361,7 +361,7 @@ body .boxed .contents {
   padding-left: 8px;
 }
 #reply-control .control-row .reply-to {
-  max-width: calc(50% - 32px);
+  max-width: calc(50% - 34px);
 }
 #reply-control .control-row .reply-to a {
   min-width: 0;
@@ -447,10 +447,10 @@ body .boxed .contents {
   margin: 0 auto 0 0;
 }
 .category-list-item > footer .btn {
-  margin-left: 4px;
+  margin-left: 5px;
 }
 .category-list-item .age {
-  margin-left: 4px;
+  margin-left: 5px;
 }
 .category-list-item .topic-list {
   -webkit-box-shadow: none;
@@ -471,7 +471,7 @@ body .boxed .contents {
 .mobile-view .topic-list .num.activity {
   clear: both;
   float: right;
-  margin-left: 4px;
+  margin-left: 5px;
   position: static;
 }
 
@@ -531,8 +531,8 @@ body .boxed .contents {
 
 .show-topic-admin {
   position: fixed;
-  top: 8px;
-  right: 8px;
+  top: 87.5px;
+  right: 7.5px;
 }
 
 .small-action {
@@ -558,8 +558,8 @@ body .boxed .contents {
   white-space: normal;
 }
 #topic-footer-buttons .combobox {
-  margin-right: 8px;
-  margin-bottom: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   width: auto !important;
 }
 
@@ -589,7 +589,7 @@ body .boxed .contents {
 }
 
 #topic-title {
-  padding: 0 0 16px;
+  padding: 0 0 15px;
 }
 
 .badge-grouping,
@@ -600,7 +600,7 @@ body .boxed .contents {
 }
 .badge-grouping .badge-card:last-of-type,
 .badges-section .badge-card:last-of-type {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .paginated-topics-list {
@@ -616,7 +616,7 @@ body .boxed .contents {
 }
 
 .top-sub-section {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   margin-left: 0;
   width: 100%;
 }
@@ -700,7 +700,7 @@ body .boxed .contents {
 }
 
 .user-navigation {
-  margin: 0 0 24px;
+  margin: 0 0 25px;
 }
 
 .user-table .wrapper {
@@ -713,8 +713,8 @@ body .boxed .contents {
   width: 100%;
 }
 .admin-detail, .admin-detail.mobile-open {
-  -webkit-transform: translate3d(calc(50% + 8px), 0, 0);
-          transform: translate3d(calc(50% + 8px), 0, 0);
+  -webkit-transform: translate3d(calc(50% + 7.5px), 0, 0);
+          transform: translate3d(calc(50% + 7.5px), 0, 0);
 }
 .admin-detail.mobile-closed {
   -webkit-transform: translate3d(0, 0, 0);
@@ -738,7 +738,7 @@ body .boxed .contents {
 }
 
 .admin-nav {
-  width: calc(50% - 8px);
+  width: calc(50% - 7.5px);
 }
 
 .customize > .admin-container,
@@ -764,7 +764,7 @@ body .boxed .contents {
 }
 .mobile-view .admin-contents div.badges .content-list, .mobile-view .admin-contents div.customize .content-list, .mobile-view .admin-contents div.groups .content-list {
   margin-right: 0;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 .mobile-view .admin-contents div.badges .content-list > br, .mobile-view .admin-contents div.customize .content-list > br, .mobile-view .admin-contents div.groups .content-list > br {
   display: none;
