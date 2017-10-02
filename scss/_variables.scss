@@ -97,14 +97,14 @@ $grid-breakpoints: (
   xl: 1200px
 ) !default;
 
-$grid-gutter-width:    16px !default;
-$grid-gutter-width-lg: 24px !default;
+$grid-gutter-width:    15px !default;
+$grid-gutter-width-lg: 25px !default;
 
-$spacer-xs:            4px !default;
-$spacer-sm:            8px !default;
-$spacer:               16px !default;
-$spacer-lg:            24px !default;
-$spacer-xl:            48px !default;
+$spacer-xs:            5px !default;
+$spacer-sm:            10px !default;
+$spacer:               15px !default;
+$spacer-lg:            25px !default;
+$spacer-xl:            50px !default;
 
 
 
@@ -304,7 +304,7 @@ $dropdown-padding-y-sm:        16px !default;
 // Header
 
 $header-box-shadow:         $shadow-4dp !default;
-$header-height:             0px !default;
+$header-height:             80px !default;
 $header-item-overlay-dark:  $white-divider !default;
 $header-item-overlay-light: $black-divider !default;
 $header-inner-spacer-x:     8px !default;
