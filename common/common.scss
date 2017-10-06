@@ -2048,7 +2048,7 @@ div.ac-wrap input[type='text'] {
   height: auto;
   margin: 0;
   min-height: 80px;
-  padding: 0px 20px;
+  padding: 5px 20px;
 }
 .d-header button.login-button, .d-header button.sign-up-button {
   -webkit-box-align: center;
@@ -2064,7 +2064,7 @@ div.ac-wrap input[type='text'] {
   display: -ms-flexbox;
   display: flex;
   font-size: inherit;
-  height: 80px;
+  height: 70px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -2077,7 +2077,7 @@ div.ac-wrap input[type='text'] {
   position: relative;
   text-indent: 300%;
   white-space: nowrap;
-  width: 80px;
+  width: 70px;
 }
 .d-header button.login-button:focus, .d-header button.login-button:hover, .d-header button.sign-up-button:focus, .d-header button.sign-up-button:hover {
   background-color: color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
@@ -2164,14 +2164,14 @@ div.ac-wrap input[type='text'] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 80px;
+  height: 70px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 8px;
   padding: 0;
-  width: 80px;
+  width: 70px;
 }
 .d-header .icons .icon:focus, .d-header .icons .icon:hover {
   background-color: color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
@@ -2194,7 +2194,7 @@ div.ac-wrap input[type='text'] {
           order: 1;
 }
 .d-header #site-logo {
-  max-height: 80px;
+  max-height: 65px;
 }
 .d-header .title a {
   -webkit-box-align: center;
