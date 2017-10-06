@@ -23,16 +23,16 @@ aside.quote .quote-controls .quote-other-topic::before, .d-editor-preview div.po
   font-family: 'Material Icons';
   -webkit-font-feature-settings: 'liga';
           font-feature-settings: 'liga';
-  font-size: 1.714286em;
+  font-size: 1.5em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
-  line-height: 0.583333em;
+  line-height: 0.666667em;
   text-rendering: optimizeLegibility;
   text-transform: none;
-  vertical-align: -0.302198em;
+  vertical-align: -0.345369em;
   white-space: nowrap;
   word-wrap: normal;
 }
@@ -727,7 +727,7 @@ body .form-vertical .control-label, .autocomplete ul li a span.name, .select2-dr
 }
 
 body {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571;
 }
 
@@ -906,8 +906,8 @@ sup {
   padding-right: 12px;
 }
 .badge-wrapper, .badge-wrapper.box, .badge-wrapper.bullet {
-  font-size: 13px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1;
   margin-right: 5px;
 }
@@ -1041,7 +1041,7 @@ pre {
   border-radius: 2px;
   color: $primary;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 15px;
   padding: 16px 16px;
@@ -1512,7 +1512,7 @@ body .form-vertical .controls.category-controls label, body .form-vertical .cont
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-  margin-top: 8.000003px;
+  margin-top: 6.571432px;
 }
 body .form-vertical .controls > :first-child {
   margin-right: 10px;
@@ -1627,7 +1627,7 @@ div.ac-wrap div.item {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: normal;
   height: 32px;
   line-height: 1;
@@ -1959,12 +1959,12 @@ div.ac-wrap input[type='text'] {
   padding-bottom: 1px;
 }
 .select2-container-multi .select2-choices .select2-search-choice {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   margin: 2.5px;
-  padding-top: 2px;
+  padding-top: 1px;
   padding-right: 5px;
-  padding-bottom: 2px;
+  padding-bottom: 1px;
 }
 .select2-container-multi .select2-choices .select2-search-field input {
   height: auto;
@@ -2014,9 +2014,9 @@ div.ac-wrap input[type='text'] {
   line-height: inherit !important;
   background-image: none;
   color: $primary;
-  height: 14px;
-  top: 3px;
-  width: 14px;
+  height: 16px;
+  top: 2px;
+  width: 16px;
 }
 .select2-search-choice-close::before {
   content: "close";
@@ -2373,7 +2373,7 @@ ol.category-breadcrumb li {
   padding-top: 0;
 }
 .create-account tr.input td.label {
-  padding-top: 18.000003px;
+  padding-top: 16.571432px;
 }
 .create-account tr.input .tip {
   margin-bottom: 5px;
@@ -2442,7 +2442,7 @@ ol.category-breadcrumb li {
   width: 100%;
 }
 #login-form td:first-child:not(:empty) {
-  padding-top: 18.000003px;
+  padding-top: 16.571432px;
 }
 
 .login-modal .btn-primary {
@@ -3490,7 +3490,7 @@ div.menu-links-header .menu-links-row {
 
 .close {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.54));
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .edit-category-modal .edit-category-tab-security section.field > .btn {
@@ -3929,7 +3929,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 }
 .pika-table th {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.54));
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1;
 }
@@ -4840,7 +4840,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   font-size: inherit;
 }
 .topic-list .main-link a.title {
-  font-weight: 500;
+  font-weight: 400;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -5225,7 +5225,7 @@ nav.post-controls .show-replies i {
 }
 
 .post-links-container ul li {
-  margin: 0.000003px 0;
+  margin: -1.428568px 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -5253,7 +5253,7 @@ nav.post-controls .show-replies i {
 }
 
 .read-state {
-  font-size: 14px;
+  font-size: 16px;
   top: 0;
   right: 0;
 }
@@ -5281,8 +5281,8 @@ nav.post-controls .show-replies i {
 }
 .small-action button {
   color: color-chooser(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.54));
-  margin-top: -6.000003px;
-  margin-bottom: -6.000003px;
+  margin-top: -4.571432px;
+  margin-bottom: -4.571432px;
 }
 .small-action .small-action-desc {
   -webkit-box-align: center;
@@ -5431,7 +5431,7 @@ nav.post-controls .show-replies i {
 }
 #topic-footer-buttons .topic-notifications-button .reason {
   line-height: 1.428571;
-  margin-top: 8.000003px;
+  margin-top: 6.571432px;
   margin-bottom: 0;
   margin-left: 10px;
 }
@@ -5537,11 +5537,11 @@ nav.post-controls .show-replies i {
           flex-wrap: wrap;
 }
 .topic-map .map .avatar {
-  height: 19.999994px;
-  width: 19.999994px;
+  height: 22.857136px;
+  width: 22.857136px;
 }
 .topic-map .map .number {
-  font-size: 19.999994px;
+  font-size: 22.857136px;
   line-height: 1;
   margin-top: 1px;
 }
@@ -5666,7 +5666,7 @@ nav.post-controls .show-replies i {
 }
 #topic-title a.edit-topic {
   color: $tertiary;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   vertical-align: middle;
 }
@@ -5678,7 +5678,7 @@ nav.post-controls .show-replies i {
 }
 #topic-title .private-message-glyph {
   float: none;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   margin: 0;
   vertical-align: middle;
@@ -5686,7 +5686,7 @@ nav.post-controls .show-replies i {
 #topic-title .topic-statuses {
   display: inline-block;
   float: none;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   margin: 0;
   vertical-align: middle;
@@ -5835,7 +5835,7 @@ nav.post-controls .show-replies i {
   background-color: transparent;
 }
 .user-main .about .details h1 i::before {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   vertical-align: middle;
 }
@@ -5950,7 +5950,7 @@ nav.post-controls .show-replies i {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: 13px;
+  font-size: 16px;
   height: 32px;
   line-height: 1;
   padding: 0 12px;
@@ -6043,8 +6043,8 @@ nav.post-controls .show-replies i {
   margin-right: 8px;
 }
 .user-main .user-stream .avatar-link .avatar {
-  height: 19.999994px;
-  width: 19.999994px;
+  height: 22.857136px;
+  width: 22.857136px;
 }
 .user-main .user-stream .category {
   height: 24px;
@@ -6256,7 +6256,7 @@ nav.post-controls .show-replies i {
 }
 .badge-card .badge-contents .badge-icon {
   background-color: color-chooser(#212121, #f5f5f5);
-  min-width: 109.142857px;
+  min-width: 99.5px;
 }
 .badge-card .badge-contents .badge-info {
   min-width: 0;
@@ -6289,7 +6289,7 @@ nav.post-controls .show-replies i {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: 14px;
+  font-size: 16px;
   height: 24px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -6300,7 +6300,7 @@ nav.post-controls .show-replies i {
   width: 24px;
 }
 .badge-card .grant-count {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   top: 8px;
   right: 8px;
@@ -6405,8 +6405,8 @@ nav.post-controls .show-replies i {
   width: auto;
 }
 .user-info .avatar {
-  height: 39.999988px;
-  width: 39.999988px;
+  height: 45.714272px;
+  width: 45.714272px;
 }
 .user-info .user-detail {
   font-size: inherit;
@@ -6434,7 +6434,7 @@ nav.post-controls .show-replies i {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: 13px;
+  font-size: 16px;
   height: 32px;
   line-height: 1;
   margin: 0;
@@ -6787,7 +6787,7 @@ div.badges .form-horizontal > div.group-flair-inputs input[type='text'], div.gro
   padding: 0;
 }
 .admin-container div.user-fields .user-field .form-element.label-area label {
-  margin: 8.000003px 8px 0 0;
+  margin: 6.571432px 8px 0 0;
 }
 .admin-container div.user-fields .user-field .row {
   margin-bottom: 8px;
@@ -7026,7 +7026,7 @@ div.badges .form-horizontal > div.group-flair-inputs input[type='text'], div.gro
 }
 .customize .show-current-style h1 a,
 .customize .show-current-style h2 a {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   vertical-align: middle;
 }
