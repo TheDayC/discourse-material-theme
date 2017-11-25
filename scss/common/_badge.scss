@@ -23,7 +23,7 @@
   &.box,
   &.bullet {
     font-size: $chip-font-size;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 1;
     margin-right: $spacer-xs;
   }
@@ -45,6 +45,7 @@
     span {
       &.badge-category {
         line-height: $chip-height;
+        display:flex;
       }
 
       &.badge-category-bg {
@@ -84,6 +85,7 @@
 
       &.badge-category-bg + .badge-category {
         margin-left: ($chip-width + $chip-inner-spacer-x);
+        display:flex;
       }
 
       &.badge-category-parent-bg + .badge-category-bg {

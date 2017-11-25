@@ -257,7 +257,8 @@
 
     a {
       &.title {
-        font-weight: $font-weight-medium;
+        font-size:$font-size-h5;
+        font-weight: $font-weight-regular;
         padding-top: $tbody-cell-padding-y;
         padding-bottom: $tbody-cell-padding-y;
 

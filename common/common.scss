@@ -906,8 +906,8 @@ sup {
   padding-right: 12px;
 }
 .badge-wrapper, .badge-wrapper.box, .badge-wrapper.bullet {
-  font-size: 13px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1;
   margin-right: 5px;
 }
@@ -927,6 +927,10 @@ sup {
 }
 .badge-wrapper.box span.badge-category, .badge-wrapper.bullet span.badge-category {
   line-height: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .badge-wrapper.box span.badge-category-bg, .badge-wrapper.bullet span.badge-category-bg {
   float: left;
@@ -965,6 +969,10 @@ sup {
 }
 .badge-wrapper.box span.badge-category-bg + .badge-category {
   margin-left: 36px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .badge-wrapper.box span.badge-category-parent-bg + .badge-category-bg {
   left: 16px;
@@ -1627,7 +1635,7 @@ div.ac-wrap div.item {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: normal;
   height: 32px;
   line-height: 1;
@@ -2048,7 +2056,7 @@ div.ac-wrap input[type='text'] {
   height: auto;
   margin: 0;
   min-height: 80px;
-  padding: 20px 20px;
+  padding: 5px 20px;
 }
 .d-header button.login-button, .d-header button.sign-up-button {
   -webkit-box-align: center;
@@ -2064,7 +2072,7 @@ div.ac-wrap input[type='text'] {
   display: -ms-flexbox;
   display: flex;
   font-size: inherit;
-  height: 40px;
+  height: 70px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -2077,7 +2085,7 @@ div.ac-wrap input[type='text'] {
   position: relative;
   text-indent: 300%;
   white-space: nowrap;
-  width: 40px;
+  width: 70px;
 }
 .d-header button.login-button:focus, .d-header button.login-button:hover, .d-header button.sign-up-button:focus, .d-header button.sign-up-button:hover {
   background-color: color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
@@ -2090,6 +2098,10 @@ div.ac-wrap input[type='text'] {
   margin-right: 100%;
   position: absolute;
   text-indent: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 .d-header button.sign-up-button {
   font-size: inherit !important;
@@ -2103,6 +2115,10 @@ div.ac-wrap input[type='text'] {
   margin-right: 100%;
   position: absolute;
   text-indent: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 .d-header .contents {
   -webkit-box-align: center;
@@ -2164,14 +2180,14 @@ div.ac-wrap input[type='text'] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 40px;
+  height: 70px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 8px;
   padding: 0;
-  width: 40px;
+  width: 70px;
 }
 .d-header .icons .icon:focus, .d-header .icons .icon:hover {
   background-color: color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
@@ -2194,7 +2210,7 @@ div.ac-wrap input[type='text'] {
           order: 1;
 }
 .d-header #site-logo {
-  max-height: 20px;
+  max-height: 65px;
 }
 .d-header .title a {
   -webkit-box-align: center;
@@ -4840,7 +4856,8 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   font-size: inherit;
 }
 .topic-list .main-link a.title {
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -5950,7 +5967,7 @@ nav.post-controls .show-replies i {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: 13px;
+  font-size: 16px;
   height: 32px;
   line-height: 1;
   padding: 0 12px;
@@ -6434,7 +6451,7 @@ nav.post-controls .show-replies i {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: 13px;
+  font-size: 16px;
   height: 32px;
   line-height: 1;
   margin: 0;
