@@ -949,10 +949,7 @@ sup {
   line-height: 1;
   margin-right: 4px;
   width: 32px;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  position: relative;
 }
 .badge-wrapper.box span.badge-category-parent-bg, .badge-wrapper.bullet span.badge-category-parent-bg {
   border-radius: 16px 0 0 16px;

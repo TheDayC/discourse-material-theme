@@ -56,8 +56,7 @@
         line-height: 1;
         margin-right: $chip-inner-spacer-x;
         width: $chip-width;
-        display:inline-flex;
-        //test
+        position: relative;
       }
 
       &.badge-category-parent-bg {
