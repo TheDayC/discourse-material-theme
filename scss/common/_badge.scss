@@ -45,6 +45,7 @@
     span {
       &.badge-category {
         line-height: $chip-height;
+        display:flex;
       }
 
       &.badge-category-bg {
@@ -84,6 +85,7 @@
 
       &.badge-category-bg + .badge-category {
         margin-left: ($chip-width + $chip-inner-spacer-x);
+        display:flex;
       }
 
       &.badge-category-parent-bg + .badge-category-bg {
