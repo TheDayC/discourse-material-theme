@@ -87,7 +87,7 @@
       }
 
       &.badge-category-bg + .badge-category {
-        margin-left: ($chip-width + $chip-inner-spacer-x);
+        margin-left: ($chip-width);
         display:flex;
       }
 
@@ -95,7 +95,7 @@
         left: ($chip-width / 2);
 
         + .badge-category {
-          margin-left: ($chip-width + $chip-inner-spacer-x);
+          margin-left: ($chip-width);
         }
       }
     }
