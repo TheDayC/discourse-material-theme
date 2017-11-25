@@ -904,6 +904,7 @@ sup {
   border-radius: 16px;
   color: inherit;
   padding-right: 12px;
+  display: inline-block;
 }
 .badge-wrapper, .badge-wrapper.box, .badge-wrapper.bullet {
   font-size: 16px;
@@ -933,7 +934,6 @@ sup {
   display: flex;
 }
 .badge-wrapper.box span.badge-category-bg, .badge-wrapper.bullet span.badge-category-bg {
-  float: left;
   border-radius: 50%;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
@@ -942,6 +942,10 @@ sup {
   line-height: 1;
   margin-right: 4px;
   width: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .badge-wrapper.box span.badge-category-parent-bg, .badge-wrapper.bullet span.badge-category-parent-bg {
   border-radius: 16px 0 0 16px;
