@@ -927,6 +927,10 @@ sup {
 }
 .badge-wrapper.box span.badge-category, .badge-wrapper.bullet span.badge-category {
   line-height: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .badge-wrapper.box span.badge-category-bg, .badge-wrapper.bullet span.badge-category-bg {
   float: left;
@@ -965,6 +969,10 @@ sup {
 }
 .badge-wrapper.box span.badge-category-bg + .badge-category {
   margin-left: 36px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .badge-wrapper.box span.badge-category-parent-bg + .badge-category-bg {
   left: 16px;
@@ -2090,6 +2098,10 @@ div.ac-wrap input[type='text'] {
   margin-right: 100%;
   position: absolute;
   text-indent: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 .d-header button.sign-up-button {
   font-size: inherit !important;
@@ -2103,6 +2115,10 @@ div.ac-wrap input[type='text'] {
   margin-right: 100%;
   position: absolute;
   text-indent: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 .d-header .contents {
   -webkit-box-align: center;
