@@ -4440,6 +4440,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 10px;
+  max-width: none;
 }
 .fps-result .avatar {
   margin-right: 8px;

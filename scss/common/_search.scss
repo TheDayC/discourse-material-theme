@@ -5,7 +5,7 @@
   align-items: flex-start;
   display: flex;
   margin-bottom: $card-margin-y;
-
+  max-width:none;
   .avatar {
     margin-right: $card-inner-spacer-x;
   }
