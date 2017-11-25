@@ -18,7 +18,8 @@
   border-radius: ($chip-height / 2);
   color: inherit;
   padding-right: $chip-padding-x;
-  display:inline-block;
+  display:inline-flex;
+  align-items: baseline;
   &,
   &.box,
   &.bullet {
