@@ -92,7 +92,7 @@
       }
 
       &.badge-category-parent-bg + .badge-category-bg {
-        left: ($chip-width / 2);
+        left: 0;
 
         + .badge-category {
           margin-left: ($chip-width);
