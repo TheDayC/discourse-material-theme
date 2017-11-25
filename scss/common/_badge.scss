@@ -64,10 +64,12 @@
         flex-shrink: 0;
         height: $chip-height;
         width: ($chip-width / 2);
+        position: relative;
 
         + .badge-category-bg {
           border-radius: 0 ($chip-height / 2) ($chip-height / 2) 0;
           width: ($chip-width / 2);
+          position: relative;
         }
       }
     }

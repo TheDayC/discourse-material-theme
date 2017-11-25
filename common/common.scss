@@ -901,7 +901,7 @@ sup {
 
 .badge-wrapper {
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  border-radius: 16px;
+  border-radius: 12px;
   color: inherit;
   padding-right: 12px;
   display: -webkit-inline-box;
@@ -934,7 +934,7 @@ sup {
           align-items: center;
 }
 .badge-wrapper.box span.badge-category, .badge-wrapper.bullet span.badge-category {
-  line-height: 32px;
+  line-height: 24px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -945,23 +945,25 @@ sup {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-  height: 32px;
+  height: 24px;
   line-height: 1;
   margin-right: 4px;
-  width: 32px;
+  width: 24px;
   position: relative;
 }
 .badge-wrapper.box span.badge-category-parent-bg, .badge-wrapper.bullet span.badge-category-parent-bg {
-  border-radius: 16px 0 0 16px;
+  border-radius: 12px 0 0 12px;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-  height: 32px;
-  width: 16px;
+  height: 24px;
+  width: 12px;
+  position: relative;
 }
 .badge-wrapper.box span.badge-category-parent-bg + .badge-category-bg, .badge-wrapper.bullet span.badge-category-parent-bg + .badge-category-bg {
-  border-radius: 0 16px 16px 0;
-  width: 16px;
+  border-radius: 0 12px 12px 0;
+  width: 12px;
+  position: relative;
 }
 .badge-wrapper.box {
   display: -webkit-inline-box;
@@ -976,17 +978,17 @@ sup {
   padding: 0;
 }
 .badge-wrapper.box span.badge-category-bg + .badge-category {
-  margin-left: 36px;
+  margin-left: 28px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 .badge-wrapper.box span.badge-category-parent-bg + .badge-category-bg {
-  left: 16px;
+  left: 12px;
 }
 .badge-wrapper.box span.badge-category-parent-bg + .badge-category-bg + .badge-category {
-  margin-left: 36px;
+  margin-left: 28px;
 }
 
 .btn-social {
@@ -1634,7 +1636,7 @@ div.ac-wrap div.item {
       -ms-flex-align: center;
           align-items: center;
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  border-radius: 16px;
+  border-radius: 12px;
   color: inherit;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1645,11 +1647,11 @@ div.ac-wrap div.item {
           flex-shrink: 0;
   font-size: 16px;
   font-weight: normal;
-  height: 32px;
+  height: 24px;
   line-height: 1;
-  margin-top: 2px;
+  margin-top: 6px;
   margin-right: 5px;
-  margin-bottom: 2px;
+  margin-bottom: 6px;
   padding: 0 12px;
 }
 div.ac-wrap div.item a.remove {
@@ -4810,7 +4812,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 }
 .topic-list td.category,
 .topic-list th.category {
-  height: 56px;
+  height: 48px;
 }
 .topic-list td.num,
 .topic-list th.num {
@@ -5086,7 +5088,7 @@ body .bootbox.modal .modal-footer :not(.disclaimer) a.btn-primary {
 }
 #suggested-topics h3 .badge-wrapper.bullet span.badge-category {
   display: inline-block;
-  line-height: 32px;
+  line-height: 24px;
 }
 #suggested-topics h3 .badge-wrapper.bullet span.badge-category-bg, #suggested-topics h3 .badge-wrapper.bullet span.badge-category-parent-bg {
   line-height: 1;
@@ -5579,16 +5581,16 @@ nav.post-controls .show-replies i {
       -ms-flex-align: center;
           align-items: center;
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  border-radius: 16px;
+  border-radius: 12px;
   color: inherit;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   font-size: 0.857143 em;
-  height: 32px;
+  height: 24px;
   margin: 8px 8px 8px 0;
-  padding: 0 12px 0 36px;
+  padding: 0 12px 0 28px;
   position: relative;
 }
 .topic-map .participants .user a {
@@ -5597,11 +5599,11 @@ nav.post-controls .show-replies i {
   font-weight: normal;
 }
 .topic-map .participants .user .avatar {
-  height: 32px;
+  height: 24px;
   position: absolute;
   top: 0;
   left: 0;
-  width: 32px;
+  width: 24px;
 }
 .topic-map .participants .user .remove-invited {
   margin-left: 4px;
@@ -5969,14 +5971,14 @@ nav.post-controls .show-replies i {
       -ms-flex-align: center;
           align-items: center;
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
-  border-radius: 16px;
+  border-radius: 12px;
   color: inherit;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   font-size: 16px;
-  height: 32px;
+  height: 24px;
   line-height: 1;
   padding: 0 12px;
 }
@@ -5999,14 +6001,14 @@ nav.post-controls .show-replies i {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 16px;
+  border-radius: 12px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  height: 32px;
+  height: 24px;
   margin-left: -12px;
-  min-width: 32px;
+  min-width: 24px;
   padding: 8px 12px;
 }
 .user-main .staff-counters .active {
@@ -6072,7 +6074,7 @@ nav.post-controls .show-replies i {
   width: 19.999994px;
 }
 .user-main .user-stream .category {
-  height: 24px;
+  height: 18px;
   line-height: 1;
 }
 .user-main .user-stream .category .badge-wrapper {
@@ -6453,14 +6455,14 @@ nav.post-controls .show-replies i {
           align-items: center;
   background-color: color-chooser(rgba(204, 204, 204, 0.125), rgba(153, 153, 153, 0.2));
   border: 0;
-  border-radius: 16px;
+  border-radius: 12px;
   color: $primary;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: 16px;
-  height: 32px;
+  height: 24px;
   line-height: 1;
   margin: 0;
   padding: 8px 12px;
@@ -6791,10 +6793,10 @@ div.badges .form-horizontal > div.group-flair-inputs input[type='text'], div.gro
   margin-right: 8px;
 }
 .admin-contents div.groups .ac-wrap .item .avatar {
-  height: 32px;
+  height: 24px;
   margin-right: 4px;
   margin-left: -12px;
-  width: 32px;
+  width: 24px;
 }
 .admin-contents div.groups .controls {
   margin-top: 0;
